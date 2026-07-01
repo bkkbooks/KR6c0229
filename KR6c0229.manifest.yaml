@@ -1,0 +1,68 @@
+canonical_identifier: bkk:krp/KR6c0229/v1
+canonical_location: https://kanripo.org/bkk/KR6c0229/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大般若關
+  identifiers:
+    alt_id:
+    - F03n0181
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/F/F03/F03n0181.xml
+    old_id: F03n0181
+  edition:
+    short: bkk
+editions:
+- {short: 房山, label: 房山, source_xml_id: wit.orig}
+assets:
+  parts:
+  - {seq: 1, filename: KR6c0229_001.yaml, hash: 'sha256:cad5a3274fc0cb3c53e6b68ead4c204fd552af395e83578171563e8eda7a5d0e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0229_001.markers.yaml, hash: 'sha256:a54921550e61293f43d526d5d86377fb5aff0b633f2792e77573cac994cacda8'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0229_F_001-juan-start
+    span:
+    - body
+    - 0
+    - 1518
+  label: ''
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0229_F_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 卷第一百三十六
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0229_F_001-mulu-2
+    span:
+    - body
+    - 478
+    - 478
+  label: 卷第一百四十六
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0229_F_001-mulu-3
+    span:
+    - body
+    - 955
+    - 955
+  label: 卷第二百五
+  type: mulu
+  level: 1
+hash: sha256:f36881b88ec4162a761f6b9624ae7646fffed34953ac20fb5959901138a9f8ae
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
