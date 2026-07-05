@@ -15,12 +15,14 @@ metadata:
   edition:
     short: bkk
 editions:
-- {short: 房山, label: 房山, source_xml_id: wit.orig}
+- short: 房山
+  label: 房山
+  source_xml_id: wit.orig
 assets:
   parts:
-  - {seq: 1, filename: KR6c0229_001.yaml, hash: 'sha256:cad5a3274fc0cb3c53e6b68ead4c204fd552af395e83578171563e8eda7a5d0e'}
+  - {seq: 1, filename: KR6c0229_001.yaml, hash: 'sha256:fde5f353e4d2deeccb238b0bd33ae8447bc99ec14b00dc29e0f18c3502d24292'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6c0229_001.markers.yaml, hash: 'sha256:a54921550e61293f43d526d5d86377fb5aff0b633f2792e77573cac994cacda8'}
+  - {seq: 1, role: markers, filename: assets/KR6c0229_001.markers.yaml, hash: 'sha256:4edde7fb5fc9bd959436abcf921b00607d7aec53511bd241b87dbe176cc2c841'}
 table_of_contents:
 - ref:
     seq: 1
@@ -62,7 +64,4 @@ table_of_contents:
   label: 卷第二百五
   type: mulu
   level: 1
-hash: sha256:f36881b88ec4162a761f6b9624ae7646fffed34953ac20fb5959901138a9f8ae
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:2d87276049e01b70b78d7c2fec17e24bed983346dfd6ceff239ba2ccf199c053
